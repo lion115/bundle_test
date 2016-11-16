@@ -1,0 +1,3 @@
+hello_page:
+    path:     /hello/{name}
+    defaults: { _controller: LionBundle:Default:index, name:"Lion" }
